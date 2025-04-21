@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const containers = document.querySelectorAll('.image-container');
 
     let index = 0;
-    const timeInterval = 9000;
+    const timeInterval = 5000;
 
     const scrollToNext = () => {
         index++;
